@@ -3,9 +3,19 @@ import './Contract.css';
 import { GrMail } from 'react-icons/gr'
 import { AiOutlinePhone } from 'react-icons/ai'
 import { AiOutlineLinkedin } from 'react-icons/ai'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 
 const Contract = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_10gmqib', 'template_lt62qqg', form.current, 'C7uvkfdGFdo8djNnp')
+        e.target.reset();
+    };
+
     return (
         <section id='contract'>
             <h5>Get In Know</h5>
@@ -28,9 +38,10 @@ const Contract = () => {
                         <  AiOutlineLinkedin className='contract__option-icon' />
                         <br />
                         <a href='https://www.linkedin.com/in/umme-salma-pinki/'>LinkedIn</a>
+                        <p>Chittagong,Bangladesh</p>
                     </article>
                 </div>
-                <form action=''>
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder='Your Full Name' required />
                     <input type="email" name="email" placeholder='Your Email' required />
                     <textarea name='message' rows="7" placeholder='Your Message' required ></textarea>

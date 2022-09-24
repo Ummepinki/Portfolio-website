@@ -18,8 +18,9 @@
     background: transparent;
 }
 
-.portfolio_item-cta {
-    gap: 2rem;
+.portfolio_item-cta a {
+    gap: 3rem;
+    margin: 2px;
 }
 
 

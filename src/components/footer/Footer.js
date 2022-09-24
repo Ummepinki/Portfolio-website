@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import { FiFacebook } from 'react-icons/fi'
-import { AiOutlineInstagram } from 'react-icons/ai'
-import { AiOutlineTwitter } from 'react-icons/ai'
+import { BsGithub } from 'react-icons/bs'
+import { GrMail } from 'react-icons/gr'
+import { AiOutlineLinkedin } from 'react-icons/ai'
 const Footer = () => {
     return (
         <footer>
@@ -16,9 +16,9 @@ const Footer = () => {
                 <li><a href="#contract">Contract</a></li>
             </ul>
             <div className='footer__socials'>
-                <a href='https://facebook.com'><FiFacebook /></a>
-                <a href='https://instagram.com'><AiOutlineInstagram /></a>
-                <a href='https://twitter.com'><AiOutlineTwitter /></a>
+                <a href='https://www.linkedin.com/in/umme-salma-pinki/' target="_blank"><AiOutlineLinkedin /></a>
+                <a href='mailto:ummepinki3836@gmail.com' target="_blank"><GrMail /></a>
+                <a href="https://github.com/Ummepinki" target="_blank"><BsGithub /></a>
 
             </div>
 
