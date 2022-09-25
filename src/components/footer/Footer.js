@@ -17,7 +17,7 @@ const Footer = () => {
             </ul>
             <div className='footer__socials'>
                 <a href='https://www.linkedin.com/in/umme-salma-pinki/' target="_blank"><AiOutlineLinkedin /></a>
-                <a href='mailto:ummepinki3836@gmail.com' target="_blank"><GrMail /></a>
+                <a href='' target="_blank"><GrMail /></a>
                 <a href="https://github.com/Ummepinki" target="_blank"><BsGithub /></a>
 
             </div>

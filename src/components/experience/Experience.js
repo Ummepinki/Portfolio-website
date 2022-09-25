@@ -22,33 +22,46 @@ const Experience = () => {
                     <div className='experience__content'>
                         <article className='experience__details'>
                             <ImHtmlFive2 />
-                            <h4>HTML</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>HTML</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
+
                         </article>
                         <article className='experience__details'>
                             <TbBrandCss3 />
-                            <h4>CSS</h4>
-                            <small className='text-light'>Intermediate</small>
+                            <div>
+                                <h4>CSS</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
                         </article>
                         <article className='experience__details'>
                             <IoLogoJavascript />
-                            <h4>JavaScript</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>JavaScript</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experience__details'>
                             <SiBootstrap />
-                            <h4>BootStrap</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>BootStrap</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experience__details'>
                             <SiTailwindcss />
-                            <h4>TailWind</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>TailWind</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experience__details'>
                             <GrReactjs />
-                            <h4>React JS</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>React JS</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
 
                     </div>
@@ -61,28 +74,38 @@ const Experience = () => {
                         <div className='experience__content'>
                             <article className='experience__details'>
                                 <IoLogoNodejs />
-                                <h4>Node JS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <div>
+                                    <h4>Node JS</h4>
+                                    <small className='text-light'>Intermediate</small>
+                                </div>
                             </article>
                             <article className='experience__details'>
                                 <SiMongodb />
-                                <h4>MongoDB</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <div>
+                                    <h4>MongoDB</h4>
+                                    <small className='text-light'>Intermediate</small>
+                                </div>
                             </article>
                             <article className='experience__details'>
                                 <SiExpress />
-                                <h4>Express JS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <div>
+                                    <h4>Express JS</h4>
+                                    <small className='text-light'>Intermediate</small>
+                                </div>
                             </article>
                             <article className='experience__details'>
                                 <FaAws />
-                                <h4>AWS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <div>
+                                    <h4>AWS</h4>
+                                    <small className='text-light'>Intermediate</small>
+                                </div>
                             </article>
                             <article className='experience__details'>
                                 <TbApi />
-                                <h4>Rest API</h4>
-                                <small className='text-light'>Basic</small>
+                                <div>
+                                    <h4>Rest API</h4>
+                                    <small className='text-light'>Basic</small>
+                                </div>
                             </article>
 
 

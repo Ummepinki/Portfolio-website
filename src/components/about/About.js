@@ -29,8 +29,8 @@ const about = () => {
                         </article>
 
                     </div>
-                    <p>I,m Umme Salma Pinki. I,m Full-Stack Web Developer. My expertise is in the area of responsive design. With every line
-                        of code. I,m create web application using React JS, Node JS, Express JS, MongoDB and Taliwind.
+                    <p>I'm Umme Salma Pinki. I'm Full-Stack Web Developer. My expertise is in the area of responsive design. With every line
+                        of code. I'm create web application using React JS, Node JS, Express JS, MongoDB and Taliwind.
                         I have a strong aptitude, problem solving and technical skills.
                     </p>
                     <a href='#contract' className='btn btn-primary'>Let,s Talk</a>
